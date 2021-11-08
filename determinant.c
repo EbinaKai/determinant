@@ -40,7 +40,7 @@ int main(void) {
         }
         //メイン処理
         for(i=current-1;i>=0;i--){
-            for(j=0;j<=current;j++){
+            for(j=0;j<current;j++){
                 matrix[i][j] -= matrix[current][j] * matrix[i][current] / matrix[current][current];
             }
         }
