@@ -9,7 +9,7 @@ int main(void) {
     int k,l;
 
     //入力部分
-    while(order>10){
+    while(order>10 || order<=0){
         printf("order > ");
         scanf("%d",&order);
     }
