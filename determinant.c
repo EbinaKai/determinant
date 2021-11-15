@@ -5,7 +5,7 @@
 
 int main(void) {
     int i,j,current,adjust,order=11;
-    float matrix[10][10],determinant;
+    float matrix[9][9],determinant;
     int k,l;
 
     //入力部分
